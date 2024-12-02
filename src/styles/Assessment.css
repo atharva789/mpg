@@ -1,0 +1,29 @@
+.assessment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
+
+.resources-sidebar {
+  width: 20%;
+  padding: 20px;
+}
+
+.packet-viewer {
+  flex: 1;
+  padding: 20px;
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 500px;
+}

@@ -1,0 +1,50 @@
+.upload-resources-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.upload-resources-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.upload-resources-container form {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.upload-resources-container form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.upload-resources-container form input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.upload-resources-container form button {
+  display: block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-resources-container form button:hover {
+  background-color: #0056b3;
+}
+
+.upload-resources-container .upload-message {
+  font-size: 1.2rem;
+  color: green;
+}
